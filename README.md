@@ -1,37 +1,37 @@
-## luoqi
+# Pudhina
+A simple, minimal [Jekyll](jekyllrb.com) theme for a personal web page and blog, focusing on white space and readability
 
-You can use the [editor on GitHub](https://github.com/logeexpluoqi/logeexpluoqi.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+[Click here](https://knhash.github.io/Pudhina/) to see the theme in action. Note that the download PDF button redirects to 404 due to lack of the file. This is by design, to demonstrate the Glitch effect therein.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Screenshots
 
-### Markdown
+![Home](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/home.png?raw=true "Home") 
+![Blog](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/blog.png?raw=true "Blog") 
+![Resume](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/resume.png?raw=true "Resume") 
+![Post](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/post.png?raw=true "Post") 
+![404](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/404.png?raw=true "404") 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Features
+- Simple, minimal and clean
+- Blog posts categorised
+- Responsive
+- Syntax Highlighter (using [highlight.js](https://highlightjs.org/)).
+- Font-Awesome Icons.
+- Glitchy 404 page
 
-```markdown
-Syntax highlighted code block
+## How to use it
+- Start by cloning the repository, then check the `_config.yml` file and change it accordingly. Note that the `title` property is what will be displayed as logo.
+- Execute `jekyll serve` and head to [localhost:4000](http://127.0.0.1:4000) to see the results locally.
 
-# Header 1
-## Header 2
-### Header 3
+## Customization
+- Change main picture and icon in `/assets/img/pudhina`.  
+- Change main details regarding site in `_config.yml`.
+- Configure `index.md` for the main page, `blog.md` for Blog listing and `resume.md` for Resume page.
+- CSS properties can be found in `/assets/css/main.css`.
+- New posts to be created in the `/_posts/` directory, follow the naming convention used in samples. Front-matter requires title, subtitle, categories and date.
 
-- Bulleted
-- List
+## Credits
+Inspired by the theme [Daktilo](https://github.com/kronik3r/daktilo)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/logeexpluoqi/logeexpluoqi.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## License
+The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
