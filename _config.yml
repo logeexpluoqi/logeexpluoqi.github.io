@@ -1,4 +1,5 @@
 # Site settings
+theme: Pudhina
 title: Pudhina
 description: >
   A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability
